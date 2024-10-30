@@ -1,0 +1,231 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-09-15 17:53+0200\n"
+"PO-Revision-Date: 2017-09-15 17:53+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/settings.php:27
+msgid "OPTIONS"
+msgstr "OPZIONI"
+
+#: classes/settings.php:28
+msgid "QUESTIONS"
+msgstr "DOMANDE"
+
+#: classes/settings.php:29
+msgid "RESULTS"
+msgstr "RISULTATI"
+
+#: classes/settings.php:30
+msgid "FEEDBACK"
+msgstr "FEEDBACK"
+
+#: classes/settings.php:38
+msgid "Survey Options"
+msgstr "Opzioni questionario"
+
+#: classes/settings.php:49
+msgid ""
+"Survey title (a dedicated page will be created. No one can see this title on "
+"the survey page, but we need it to link the survey to an url)"
+msgstr ""
+"Titolo questionario (verrà creata una pagina dedicata. Nessuno vedrà il "
+"titolo nella pagina, ma serve per raggiungere il questionario tramite url)"
+
+#: classes/settings.php:70
+msgid "Background image (if empty the background will be the color chosen)"
+msgstr "Immagine di sfondo (se vuota lo sfondo sarà il colore scelto)"
+
+#: classes/settings.php:83
+msgid "Background color"
+msgstr "Colore sfondo"
+
+#: classes/settings.php:97
+msgid "Text color"
+msgstr "Colore testo"
+
+#: classes/settings.php:110 classes/settings.php:196
+msgid "SAVE"
+msgstr "SALVA"
+
+#: classes/settings.php:111 classes/settings.php:197
+msgid "Show survey"
+msgstr "Visualizza questionario"
+
+#: classes/settings.php:121
+msgid "Survey Questions"
+msgstr "Domande questionario"
+
+#: classes/settings.php:133
+msgid "Start text"
+msgstr "Testo introduzione"
+
+#: classes/settings.php:141
+msgid "Final text"
+msgstr "Testo finale"
+
+#: classes/settings.php:144
+msgid "Saving..."
+msgstr "Salvataggio in corso..."
+
+#: classes/settings.php:149
+msgid "Redirect text"
+msgstr "Testo redirect"
+
+#: classes/settings.php:157
+msgid "Questions (empty answers won't show in the survey)"
+msgstr "Domande (le risposte vuote non compariranno nel questionario)"
+
+#: classes/settings.php:166 classes/settings.php:183 classes/settings.php:207
+msgid "Question"
+msgstr "Domanda"
+
+#: classes/settings.php:169 classes/settings.php:184 classes/settings.php:185
+#: classes/settings.php:186 classes/settings.php:187 classes/settings.php:188
+#: classes/settings.php:207
+msgid "Answer"
+msgstr "Risposta"
+
+#: classes/settings.php:172 classes/settings.php:207
+msgid "DELETE"
+msgstr "ELIMINA"
+
+#: classes/settings.php:178 classes/settings.php:190
+msgid "New question"
+msgstr "Nuova domanda"
+
+#: classes/settings.php:195
+msgid ""
+"Delete old results (check if you've edited an existing survey questions, to "
+"have a new series of results)"
+msgstr ""
+"Cancella i vecchi risultati (seleziona se hai modificato le domande del "
+"questionario per avere una nuova lista di risultati)"
+
+#: classes/settings.php:207
+msgid "NEW QUESTION"
+msgstr "NUOVA DOMANDA"
+
+#: classes/settings.php:232
+msgid "Results"
+msgstr "Risultati"
+
+#: classes/settings.php:234
+msgid "From"
+msgstr "Dal"
+
+#: classes/settings.php:235
+msgid "To"
+msgstr "Al"
+
+#: classes/settings.php:236
+msgid "Filter"
+msgstr "Filtra"
+
+#: classes/settings.php:248
+msgid "Total surveys completed"
+msgstr "Totale questionari completati"
+
+#: classes/settings.php:263
+msgid "Date"
+msgstr "Data"
+
+#: classes/settings.php:311
+msgid "Thank you! Your message has been sent"
+msgstr "Grazie! Il tuo messaggio è stato inviato"
+
+#: classes/settings.php:315
+msgid "Leave a feedback"
+msgstr "Lascia un feedback"
+
+#: classes/settings.php:316
+msgid "Do you like our plugin? Have you any advice to improve it?"
+msgstr "Ti piace il nostro plugin? Hai consigli su come migliorarlo?"
+
+#: classes/settings.php:318
+msgid "Name"
+msgstr "Nome"
+
+#: classes/settings.php:322
+msgid "How do you rate our plugin?"
+msgstr "Come valuti il nostro plugin?"
+
+#: classes/settings.php:341
+msgid "Message"
+msgstr "Messaggio"
+
+#: classes/settings.php:343
+msgid "Send feedback"
+msgstr "Invia feedback"
+
+#: classes/settings.php:382 classes/settings.php:398
+msgid "Error uploading file"
+msgstr "Errore nel caricamento del file"
+
+#: classes/settings.php:417 classes/settings.php:462
+msgid "Options saved succesfully"
+msgstr "Opzioni salvate correttamente"
+
+#: classes/settings.php:467
+msgid "All fields are required"
+msgstr "Tutti i campi sono richiesti"
+
+#: survey_template.php:86
+msgid "BACK"
+msgstr "INDIETRO"
+
+#: survey_template.php:109
+msgid "THANK YOU!"
+msgstr "GRAZIE!"
+
+#: survey_template.php:116
+msgid "This survey is completely anonymous"
+msgstr "Il questionario è completamente anonimo"
+
+#~ msgid "CSI Results"
+#~ msgstr "Risultati CSI"
+
+#~ msgid ""
+#~ "Before setting options, create the page that you would like to use as CSI"
+#~ msgstr ""
+#~ "Prima di impostare le opzioni crea la pagina che vuoi utilizzare come CSI"
+
+#~ msgid "Page to use as survey"
+#~ msgstr "Pagina da utilizzare come questionario"
+
+#~ msgid ""
+#~ "Warning: if you edit your questions, all the results will be deleted!"
+#~ msgstr ""
+#~ "Attenzione: se modifichi le domande, i risultati correnti verranno "
+#~ "eliminati!"
+
+#~ msgid "Restart text"
+#~ msgstr "Testo \"ricomincia questionario\""
+
+#~ msgid "Questions"
+#~ msgstr "Domande"
+
+#~ msgid ""
+#~ "Survey title (a dedicated page will be dedicated. No one can see this "
+#~ "title on the survey page, but we need it to link the survey to an url)"
+#~ msgstr ""
+#~ "Titolo questionario (verrà creata una pagina dedicata. Il titolo non "
+#~ "comparirà nella pagina, ma serve per raggiungere il questionario tramite "
+#~ "url)"
+
+#~ msgid "pig god"
+#~ msgstr "porco dio"
+
+#~ msgid "Total surveys"
+#~ msgstr "Totale questionari completati"

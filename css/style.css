@@ -1,0 +1,194 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html,body{
+    overflow: hidden;
+    width:100%;
+    height:100%;
+}
+h1,h2,h3,h4,h5,body{
+    font-weight:lighter;
+}
+body{
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding:50px;
+    font-family: 'Roboto',sans-serif !important;
+}
+.relative{
+    position:relative !important;
+}
+.absolute{
+    position:absolute !important;
+}
+.main-container.steps{
+    left:2840px;
+    position:relative;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding:50px;
+}
+.logo{
+    width:400px;
+    height:auto;
+    margin: 0 auto 50px auto;
+    text-align:center;
+}
+.logo img{
+    max-width:100%;
+}
+.smile{
+    width:250px;
+    height:auto;
+    margin: 20px auto;
+    text-align:center;
+}
+.smile img{
+    max-width:100%;
+}
+.main-container h1{
+    margin:50px auto;
+}
+.stars{
+    margin:50px auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.stars i {
+    font-size: 100px;
+    cursor:pointer;
+}
+.star{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+    width:19%;
+}
+.main-container h4{
+    margin:25px auto;
+}
+.play-btn {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 50px auto;
+    cursor: pointer;
+}
+.play-btn i{
+    font-size: 75px;
+    line-height: 150px;
+    text-align: center;
+    margin-left: 15px;
+}
+.footer-anonimo{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    color: white;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    text-transform:uppercase;
+}
+.restart{
+    padding: 15px;
+    margin: 20px auto 30px auto;
+    display: inline-block;
+    border-radius: 15px;
+    font-size: 22px;
+}
+.newquestion{
+    background-color:green;
+}
+@media all and (max-width: 767px){
+    body {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 15px;
+        font-family: 'Roboto',sans-serif !important;
+    }
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 90%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        margin: auto;
+    }
+    .main-container h1 {
+        margin: 15px auto;
+        font-size: 24px;
+    }
+    .play-btn {
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        text-align: center;
+        margin: 15px auto;
+    }
+    .play-btn i {
+        font-size: 33px;
+        line-height: 75px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .stars {
+        margin: 10px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .star {
+        margin: 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        line-height: 0;
+        justify-content: center;
+    }
+    .stars i {
+        font-size: 25px;
+    }
+    .star h3 {
+        margin: 5px auto;
+        font-size: 18px;
+    }
+    .logo {
+        width: 250px;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+    }
+}

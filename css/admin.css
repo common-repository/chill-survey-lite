@@ -1,0 +1,155 @@
+#postbox-container-1{
+    width:100% !important;
+}
+.mytable{
+  width:100%;
+  margin-top:20px;
+}
+.mytable tr.grey{
+  background-color: #e4e4e4;
+}
+.mytable thead{
+  background-color: #dcd9d9;
+}
+.mytable,.mytable th, .mytable td{
+    text-align: center;
+    padding:15px 0;
+    font-size: 16px;
+}
+.tables{
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.newquestion {
+    font-weight: normal;
+    text-transform: uppercase;
+    background-color: green;
+    color: white;
+    text-align: center;
+    width: auto;
+    margin: 15px 0;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.32);
+    cursor: pointer;
+    display: inline-block;
+}
+#qcontainer input{
+    padding:5px;
+    border-radius:5px;
+    width:100%;
+}
+.tabs .tab {
+  margin: 0 15px;
+  background-color: lightgray;
+  padding: 10px 20px;
+  border: 1px solid #d2d2d2;
+}
+.tabs .tab.active{
+  border-bottom: none;
+  background-color: #f9f9f9;
+  border: 1px solid #f9f9f9;
+  box-shadow: 0px -1px 1px 0px rgba(0, 0, 0, 0.15);
+}
+.tabs .tab a{
+  color:black;
+  cursor:pointer;
+  text-decoration: none;
+  font-weight:bold;
+}
+.tab:first-child {
+  margin-left: 0;
+}
+.tabs{
+  align-items:center;
+  display:flex;
+  margin-top:20px;
+}
+button{
+  padding:3px 5px;
+}
+button a{
+  font-size:14px;
+  text-decoration:none;
+}
+.csi-admin-button {
+  font-weight: 600;
+  background-color:#1080f2;
+  border: none;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.52);
+  padding: 5px 20px;
+  transition-duration: 0.5s;
+  margin-top: 16px;
+  color:white;
+  cursor:pointer;
+}
+.csi-admin-button:hover {
+  background-color: #f7f7f7;
+}
+.csi-admin-button a{
+color:white;
+}
+.csi-admin-button:hover a, .csi-admin-button:hover{
+color:black;
+transition-duration: 0.5s;
+}
+textarea{
+  width:30%;
+}
+.form-table th{
+  width:40% !important;
+  min-width: 200px;
+}
+.stars{
+    margin:50px auto;
+    display: flex;
+}
+.stars i {
+    font-size: 50px;
+    cursor:pointer;
+}
+.star{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 20px;
+  width: 30px;
+}
+.strange_bg{
+  background-color:#d6d6d6;
+}
+.csi-admin-wrap{
+  margin-top: 0;
+  padding: 15px 15px;
+  background-color: #f9f9f9;
+  margin-left: 0;
+  width: 70%;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.15);
+  display:block;
+  float:left;
+}
+.csi-admin-title{
+  font-size: 31px;
+  text-transform: uppercase;
+}
+.questions-paragraph{
+  margin-bottom: 20px !important;
+  padding: 20px;
+  box-shadow: 1px 1px 20px 0px #b7b7b7;
+}
+input.question{
+  margin-bottom:40px;
+}
+.csipremium-banner {
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.15);
+    width: 25%;
+    display: block;
+    background-size: cover;
+    height: 200px;
+    background-position:center;
+    background-repeat:no-repeat;
+    position: relative;
+    cursor:pointer;
+    float:left;
+}
